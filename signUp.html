@@ -10,6 +10,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/signUp.css" />
 
     <title>Document</title>
   </head>
@@ -18,37 +19,51 @@
       <section class="signup" id="signup">
         <div class="signup__container bd-container bd-grid">
           <div class="aside-grid">
-            <i class="bx bx-chevron-left"></i>
+            <a href="" class="btn btn-back"><i class="bx bx-chevron-left"></i></a>
             <h1 class="aside__title">My Donatur</h1>
-            <p class="aside__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
-            <i class="bx bx-donate-heart"></i>
+            <p class="aside__description">
+              Berbagi kepada yang membutuhkan <br />
+              dapat dengan mudah melalui <br />
+              MyDonatur
+            </p>
+            <p><i class="bx bx-donate-heart"></i></p>
           </div>
           <div class="content-grid">
-            <h1 class="content__title">Sign In to My Donatur</h1>
-            <p class="content__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
+            <div class="content__head">
+              <h1 class="content__title">Sign In to My Donatur</h1>
+              <p class="content__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
+            </div>
 
             <form action="#">
               <label for="email">Username</label>
+              <br />
               <input class="input-text" placeholder="Username" type="text" name="uname" id="uname" />
+              <br />
               <label for="pw">Password</label>
+              <br />
               <input class="input-text" placeholder="Password" type="password" name="password" id="password" />
               <div class="togglePw" onclick="togglePassword()">
                 <input type="checkbox" name="showPassword" id="showPassword" />
                 <label for="showPw">Show Password</label>
               </div>
-              <a href="#" class="forgot__pw">Forgot Password</a>
-              <button type="submit" class="btn btn-primary">signup</button>
+            </form>
+
+            <!-- <a href="#" class="forgot__pw">Forgot Password</a> -->
+            <div class="order__signup">
+              <button type="submit" class="signup btn btn-primary">SIGN UP</button>
               <h4>OR</h4>
-              <button type="submit" class="btn btn-primary">
-                <img height="20" src="" alt="...." />
+              <button type="submit" class="btn btn-second">
+                <i class="bx bxl-google"></i>
                 Login with Google
               </button>
-              <button type="submit" class="btn btn-primary">
-                <img height="20" src="" alt="...." />
+              <br />
+              <button type="submit" class="btn btn-second">
+                <i class="bx bxl-facebook"></i>
                 Login with Facebook
               </button>
-              <a href="./signup.html">Don't have account?</a>
-            </form>
+              <br />
+            </div>
+            <a href="./signup.html" class="register">Don't have account?</a>
           </div>
         </div>
       </section>
