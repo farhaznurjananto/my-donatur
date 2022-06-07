@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICON -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="l-main">
+      <section class="signup" id="signup">
+        <div class="signup__container bd-container bd-grid">
+          <div class="aside-grid">
+            <i class="bx bx-chevron-left"></i>
+            <h1 class="aside__title">My Donatur</h1>
+            <p class="aside__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
+            <i class="bx bx-donate-heart"></i>
+          </div>
+          <div class="content-grid">
+            <h1 class="content__title">Sign In to My Donatur</h1>
+            <p class="content__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
+
+            <form action="#">
+              <label for="email">Email</label>
+              <input class="input-text" placeholder="Email" type="email" name="email" id="email" />
+              <label for="pw">Password</label>
+              <input class="input-text" placeholder="Password" type="password" name="password" id="password" />
+              <div class="togglePw" onclick="togglePassword()">
+                <input type="checkbox" name="showPassword" id="showPassword" />
+                <label for="showPw">Show Password</label>
+              </div>
+              <a href="#" class="forgot__pw">Forgot Password</a>
+              <button type="submit" class="btn btn-primary">signup</button>
+              <h4>OR</h4>
+              <button type="submit" class="btn btn-primary">
+                <img height="20" src="" alt="...." />
+                Login with Google
+              </button>
+              <button type="submit" class="btn btn-primary">
+                <img height="20" src="" alt="...." />
+                Login with Facebook
+              </button>
+              <a href="./signup.html">Don't have account?</a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- SCRIPT JS -->
+    <scripts src="assets/js/scripts.js"></scripts>
+  </body>
+</html>

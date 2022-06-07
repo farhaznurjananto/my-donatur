@@ -1,0 +1,47 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+/* VARIABLES CSS */
+:root {
+  --header-height: 3rem;
+
+  /* COLORS */
+  --first-color: #368de3;
+  --first-color-alt: #65a1dd;
+  --first-color-login: #e5b299;
+  --title-color: #161212;
+  --text-color: #5b5757;
+  --text-color-light: #f2f2f2;
+  --body-color: #fefbfb;
+  --container-color: #fff;
+  --button-primary: #130fa9;
+  --button-success: #46ba3c;
+  --button-danger: #df222e;
+  --button-warning: #f0e60a;
+  --font-grey: #bababa;
+  --font-purple: #4442bb;
+
+  /* FONT AND TYPOGRAPHY */
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+
+  /* FONT WEIGHT */
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /* MARGENES */
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /* Z INDEX */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
