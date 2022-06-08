@@ -1,0 +1,115 @@
+/* CONTAINER */
+.register__container {
+  display: grid;
+  grid-template-columns: 35% auto;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/* ASIDE */
+.aside-grid {
+  padding: 2vh;
+  background-color: var(--first-color-alt);
+  color: var(--text-color-light);
+}
+
+.aside-grid a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 7vh;
+  color: var(--text-color-light);
+}
+
+.aside-grid h1,
+.aside-grid p,
+.aside-grid i {
+  text-align: center;
+}
+
+.aside-grid p i {
+  margin-top: 50vh;
+  font-size: 15vh;
+}
+
+/* CONTENT */
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh;
+  background-color: var(--body-color);
+}
+
+.content-grid .content__head {
+  margin-bottom: 5vh;
+}
+
+.content-grid label {
+  font-weight: 600;
+}
+
+.content-grid form {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-grid a {
+  text-decoration: none;
+  color: var(--font-purple);
+}
+
+/* TABLE */
+.content-grid table {
+  width: 100%;
+}
+
+table .row-2 .right {
+  padding-left: 2vh;
+  width: 60vh;
+}
+
+table .row-2 .left {
+  padding-right: 2vh;
+  width: 60vh;
+}
+
+.content-grid .input-text {
+  margin-bottom: 3vh;
+  height: 4.5vh;
+  width: 100%;
+  border-radius: 1vh;
+  border: 0.3vh solid var(--font-grey);
+}
+
+.content-grid button {
+  height: 4.5vh;
+  width: 30vh;
+  border-radius: 1vh;
+  border: none;
+  cursor: pointer;
+  margin: 1vh 1vh 1vh 1vh;
+  box-shadow: 0.1vh 0.3vh 0.5vh var(--font-grey);
+  background-color: var(--button-success);
+  color: var(--text-color-light);
+}
+
+form .button__register {
+  text-align: right;
+}
+
+/* DROPDOWN */
+form .dropdown__goal {
+  margin-bottom: 3vh;
+  height: 4.5vh;
+  width: 100%;
+  border-radius: 1vh;
+  border: 0.3vh solid var(--font-grey);
+}
+
+/* TEXT AREAS */
+.content-grid form textarea {
+  width: 100%;
+  height: 12vh;
+  border-radius: 1vh;
+  border: 0.3vh solid var(--font-grey);
+}
