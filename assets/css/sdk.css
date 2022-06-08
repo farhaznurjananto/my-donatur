@@ -1,0 +1,56 @@
+/* CONTAINER */
+.register__container {
+  display: grid;
+  grid-template-columns: 35% auto;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/* ASIDE */
+.aside-grid {
+  padding: 2vh;
+  background-color: var(--first-color-alt);
+  color: var(--text-color-light);
+}
+
+.aside-grid a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 7vh;
+  color: var(--text-color-light);
+}
+
+.aside-grid h1,
+.aside-grid p,
+.aside-grid i {
+  text-align: center;
+}
+
+.aside-grid p i {
+  margin-top: 50vh;
+  font-size: 15vh;
+}
+
+/* CONTENT */
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh;
+  background-color: var(--body-color);
+}
+
+.content-grid .content__head {
+  margin-bottom: 5vh;
+}
+
+.sk {
+  margin-bottom: 5vh;
+}
+
+.sk h3 {
+  margin-bottom: 1.5vh;
+}
+
+.sk li {
+  margin-bottom: 1vh;
+}
