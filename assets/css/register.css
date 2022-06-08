@@ -1,15 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: var(--body-font);
-  background-color: var(--body-color);
-}
-
 /* CONTAINER */
-.signup__container {
+.register__container {
   display: grid;
   grid-template-columns: 35% auto;
   height: 100vh;
@@ -68,6 +58,21 @@ body {
   color: var(--font-purple);
 }
 
+/* TABLE */
+.content-grid table {
+  width: 100%;
+}
+
+table .row-2 .right {
+  padding-left: 2vh;
+  width: 60vh;
+}
+
+table .row-2 .left {
+  padding-right: 2vh;
+  width: 60vh;
+}
+
 .content-grid .input-text {
   margin-bottom: 3vh;
   height: 4.5vh;
@@ -85,32 +90,16 @@ body {
   cursor: pointer;
   margin: 1vh 1vh 1vh 1vh;
   box-shadow: 0.1vh 0.3vh 0.5vh var(--font-grey);
-}
-
-.content-grid .signup {
   background-color: var(--button-primary);
   color: var(--text-color-light);
 }
 
-.content-grid .signup:hover {
+.content-grid button:hover {
   background-color: var(--button-primary-alt);
 }
 
-.content-grid .btn-second {
-  background-color: var(--text-color-light);
-  color: var(--text-color);
-}
-
-.content-grid .btn-second:hover {
-  background-color: var(--body-color);
-}
-
-.content-grid .order__signup {
+form .button__register {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.content-grid .register {
-  text-align: right;
 }

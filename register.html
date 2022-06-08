@@ -9,32 +9,39 @@
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/register.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Document</title>
   </head>
   <body>
     <main class="l-main">
-      <section class="signup" id="signup">
-        <div class="signup__container bd-container bd-grid">
+      <section class="register" id="register">
+        <div class="register__container bd-container bd-grid">
           <div class="aside-grid">
-            <i class="bx bx-chevron-left"></i>
+            <a href="" class="btn btn-back"><i class="bx bx-chevron-left"></i></a>
             <h1 class="aside__title">My Donatur</h1>
-            <p class="aside__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
-            <i class="bx bx-donate-heart"></i>
+            <p class="aside__description">
+              Berbagi kepada yang membutuhkan <br />
+              dapat dengan mudah melalui <br />
+              MyDonatur
+            </p>
+            <p><i class="bx bx-donate-heart"></i></p>
           </div>
           <div class="content-grid">
-            <h1 class="content__title">Register to My Donatur</h1>
-            <p class="content__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
+            <div class="content__head">
+              <h1 class="content__title">Register to My Donatur</h1>
+              <p class="content__description">Berbagi kepada yang membutuhkan dapat dengan mudah melalui MyDonatur</p>
+            </div>
 
             <form action="#">
               <table>
-                <tr>
-                  <td>
+                <tr class="row-2">
+                  <td class="colomn-2 left">
                     <label for="email">First Name</label>
                     <input class="input-text" placeholder="First Name" type="text" name="fname" id="fname" />
                   </td>
-                  <td>
+                  <td class="colomn-2 right">
                     <label for="email">Last Name</label>
                     <input class="input-text" placeholder="Last Name" type="text" name="lname" id="lname" />
                   </td>
@@ -51,12 +58,12 @@
                     <input class="input-text" placeholder="Email" type="email" name="email" id="email" />
                   </td>
                 </tr>
-                <tr>
-                  <td>
+                <tr class="row-2">
+                  <td class="colomn-2 left">
                     <label for="pw">Password</label>
                     <input class="input-text" placeholder="Password" type="password" name="password" id="password" />
                   </td>
-                  <td>
+                  <td class="colomn-2 right">
                     <label for="pw">Comfirm Password</label>
                     <input class="input-text" placeholder="Password" type="password" name="password" id="password" />
                   </td>
@@ -66,7 +73,9 @@
                 <input type="checkbox" name="showPassword" id="showPassword" />
                 <label for="showPw">Show Password</label>
               </div>
-              <button type="submit" class="btn btn-primary">Create account</button>
+              <div class="button__register">
+                <button type="submit" class="register btn btn-primary">Create account</button>
+              </div>
             </form>
           </div>
         </div>
