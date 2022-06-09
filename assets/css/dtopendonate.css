@@ -1,5 +1,5 @@
 /* CONTAINER */
-.dtdtopendonate__container {
+.dtopendonate__container {
   display: grid;
   grid-template-columns: 35% auto;
   height: 100vh;
@@ -33,7 +33,8 @@
 
 /* CONTENT */
 .content-grid {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   padding: 10vh;
   background-color: var(--body-color);
 }
@@ -92,7 +93,7 @@ table .row-2 .left {
   color: var(--text-color-light);
 }
 
-form .button__dtdtopendonate {
+form .button__dtopendonate {
   text-align: right;
 }
 
@@ -137,14 +138,10 @@ form .dropdown__goal {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 
-  .content-grid .col2 {
-    width: 26vh;
-  }
-
   .content-grid {
     margin-top: 5vh;
-    padding-right: 3vh;
-    padding-left: 3vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
   }
 }
 
@@ -155,7 +152,7 @@ form .dropdown__goal {
   }
 
   .content-grid .full {
-    width: 52.5vh;
+    width: 50.5vh;
   }
 
   form textarea {
@@ -163,7 +160,7 @@ form .dropdown__goal {
   }
 
   .content-grid .col2 {
-    width: 23.5vh;
+    width: 22.5vh;
   }
 
   .content-grid button {

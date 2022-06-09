@@ -19,7 +19,7 @@
       <section class="dtdonate" id="dtdonate">
         <div class="dtdonate__container bd-container bd-grid">
           <div class="aside-grid">
-            <a href="" class="btn btn-back"><i class="bx bx-chevron-left"></i></a>
+            <a href="dbdonate.html" class="btn btn-back"><i class="bx bx-chevron-left"></i></a>
             <h1 class="aside__title">My Donatur</h1>
             <p class="aside__description">
               Berbagi kepada yang membutuhkan <br />
@@ -44,7 +44,7 @@
                 <tr>
                   <td colspan="2">
                     <label for="email">Tujuan Donasi</label>
-                    <select class="dropdown__goal" name="goal" id="tdonasi">
+                    <select class="dropdown__goal full" name="goal" id="tdonasi">
                       <option value="volvo">Volvo</option>
                       <option value="saab">Saab</option>
                       <option value="mercedes">Mercedes</option>
@@ -52,10 +52,10 @@
                     </select>
                   </td>
                 </tr>
-                <tr class="row-2">
-                  <td class="colomn-2 left">
+                <tr colspan="2">
+                  <td colspan="2">
                     <label for="email">Bentuk Donasi</label>
-                    <select class="dropdown__goal" name="goal" id="tdonasi">
+                    <select class="dropdown__goal full" name="goal" id="tdonasi">
                       <option value="volvo">Volvo</option>
                       <option value="saab">Saab</option>
                       <option value="mercedes">Mercedes</option>
@@ -63,31 +63,32 @@
                     </select>
                   </td>
                 </tr>
-                <tr class="row-2">
-                  <td class="colomn-2 left">
-                    <label for="pw">Rekening Bank</label>
-                    <select class="dropdown__goal" name="goal" id="tdonasi">
+                <tr>
+                  <td colspan="2">
+                    <label for="pw">Pilih Rekening</label>
+                    <select class="dropdown__goal full" name="goal" id="tdonasi">
                       <option value="volvo">Volvo</option>
                       <option value="saab">Saab</option>
                       <option value="mercedes">Mercedes</option>
                       <option value="audi">Audi</option>
                     </select>
                   </td>
-                  <td class="colomn-2 right">
+                </tr>
+                <tr>
+                  <td colspan="2">
                     <label for="pw">Upload File</label>
                     <input class="input-file" placeholder="file" type="file" name="imgupload" id="imgupload" />
                   </td>
                 </tr>
                 <tr>
                   <td colspan="2">
-                    <label for="email">Pesan</label>
-                    <textarea id="txtid" name="txtname" rows="4" cols="50" maxlength="200"></textarea>
+                    <label for="email">Deskripsi Keperluan</label>
+                    <textarea id="txtid" name="txtname" rows="4" cols="50" maxlength="100"></textarea>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <label for="pw">Bukti Delivered</label>
-                    <input class="input-file" placeholder="file" type="file" name="imgupload" id="imgupload" />
+                    <a href="sdk.html" class="sk">Syarat dan Ketentuan</a>
                   </td>
                   <td>
                     <div class="button__dtdonate">

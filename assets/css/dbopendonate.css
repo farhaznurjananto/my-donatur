@@ -1,5 +1,5 @@
 /* CONTAINER */
-.register__container {
+.dbopendonate__container {
   display: grid;
   grid-template-columns: 35% auto;
   height: 100vh;
@@ -89,4 +89,34 @@ table .edit {
 table .delete {
   color: var(--button-danger);
   font-size: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+  .dbopendonate__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .aside-grid p {
+    display: none;
+  }
+
+  .aside-grid i {
+    padding-top: 3vh;
+  }
+
+  .aside-grid {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .content-grid {
+    margin-top: 5vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+  }
 }

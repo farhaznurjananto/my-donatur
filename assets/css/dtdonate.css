@@ -140,8 +140,8 @@ form .dropdown__goal {
 
   .content-grid {
     margin-top: 5vh;
-    padding-right: 3vh;
-    padding-left: 3vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
   }
 }
 
@@ -152,7 +152,7 @@ form .dropdown__goal {
   }
 
   .content-grid .full {
-    width: 52.5vh;
+    width: 50.5vh;
   }
 
   form textarea {
@@ -160,7 +160,7 @@ form .dropdown__goal {
   }
 
   .content-grid .col2 {
-    width: 23.5vh;
+    width: 22.5vh;
   }
 
   .content-grid button {

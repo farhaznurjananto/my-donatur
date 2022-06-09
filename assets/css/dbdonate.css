@@ -91,9 +91,8 @@ table .delete {
   font-size: 3vh;
 }
 
-/* RESPONSIVE */
 @media screen and (max-width: 768px) {
-  .donate__container {
+  .dbdonate__container {
     display: grid;
     grid-template-columns: auto;
   }
@@ -117,30 +116,7 @@ table .delete {
 
   .content-grid {
     margin-top: 5vh;
-    padding-right: 1vh;
-    padding-left: 1vh;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  table,
-  .togglePw {
-    text-align: center;
-  }
-
-  form textarea {
-    width: 3vh;
-  }
-
-  .content-grid form .full {
-    width: 23.5vh;
-  }
-
-  .content-grid form .col2 {
-    width: 23.5vh;
-  }
-
-  .content-grid button {
-    width: 20vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
   }
 }

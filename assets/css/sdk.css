@@ -1,5 +1,5 @@
 /* CONTAINER */
-.register__container {
+.sdk__container {
   display: grid;
   grid-template-columns: 35% auto;
   height: 100vh;

@@ -155,16 +155,16 @@ form .dropdown__goal {
     text-align: center;
   }
 
+  .content-grid .full {
+    width: 50.5vh;
+  }
+
   form textarea {
     width: 3vh;
   }
 
-  .content-grid form .full {
-    width: 23.5vh;
-  }
-
-  .content-grid form .col2 {
-    width: 23.5vh;
+  .content-grid .col2 {
+    width: 22.5vh;
   }
 
   .content-grid button {
