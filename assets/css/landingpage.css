@@ -132,7 +132,7 @@ a.button:hover {
 .card-container .card-item:hover {
   width: 35.5vh;
   height: 48.5vh;
-  box-shadow: rgba(46, 167, 247, 0.256) 0px 5px 15px 0px;
+  box-shadow: 0px 5px 15px 0px var(--first-color-alt);
 }
 
 .card-container .card-item img {
@@ -181,7 +181,7 @@ a.button:hover {
 }
 
 .donate__card-container .card-item:hover {
-  box-shadow: rgba(46, 167, 247, 0.256) 0px 5px 15px 0px;
+  box-shadow: 0px 5px 15px 0px var(--first-color-alt);
 }
 
 .card-item img {

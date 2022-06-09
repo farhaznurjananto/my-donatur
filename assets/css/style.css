@@ -56,5 +56,29 @@
 
 body {
   font-family: var(--body-font);
-  background-color: var(--body-color);
+  background-color: var(--container-color);
 }
+
+/* VARIABLE DARK THEME */
+body.dark-theme {
+  --first-color: #152a38;
+  --first-color-alt: #2e79ba;
+  /* --first-color-alt-light: red; */
+  /* --first-color-login: red; */
+  /* --title-color: red; */
+  /* --text-color: red; */
+  --text-color-light: #f5f5f5;
+  --body-color: #2e79ba;
+  --container-color: #69779b;
+  /* 152A38 */
+  /* --button-primary: #152a38; */
+  /* 152A38 */
+  /* --button-primary-alt: red; */
+  /* --button-success: #46ba3c; */
+  /* --button-danger: #df222e; */
+  /* --button-warning: #f0e60a; */
+  /* --font-grey: #bababa; */
+  /* --font-purple: #f1f1f1; */
+}
+
+/* BUTTON DARK/LIGHT */
