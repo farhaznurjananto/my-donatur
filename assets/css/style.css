@@ -7,7 +7,7 @@
 
   /* COLORS */
   --first-color: #368de3;
-  --first-color-alt: #65a1dd;
+  --first-color-alt: #d1e8ff;
   --first-color-alt-light: #e8f1fb;
   --first-color-login: #e5b299;
   --title-color: #161212;
@@ -51,6 +51,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {

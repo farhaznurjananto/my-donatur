@@ -10,37 +10,32 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/landingpage.css" />
 
     <title>Document</title>
   </head>
   <body>
-    <!-- HEADER -->
-    <header class="l-header" id="header">
-      <nav class="nav bd-container">
+    <!-- NAVBAR -->
+    <div class="topnav" id="myTopnav">
+      <div class="left-nav">
         <a href="#" class="nav__logo">
-          <i>Logo</i>
+          <i class="bx bx-donate-heart"></i>
           My Donatur
         </a>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#" class="nav__link active-link">Home</a></li>
-            <li class="nav__item"><a href="#" class="nav__link active-link">About</a></li>
-            <li class="nav__item"><a href="#" class="nav__link active-link">Donate</a></li>
-            <li class="nav__item"><a href="#" class="nav__link active-link">Contact</a></li>
-            <li class="nav__item"><a href="#" class="nav__link active-link">Login</a></li>
-            <li class="nav__item"><a href="#" class="nav__link active-link">Sign Up</a></li>
-
-            <li><i class="bx bx-toggle-left change-theme" id="theme-button"></i></li>
-          </ul>
-        </div>
-
-        <div class="nav__toggle" id="nav-toggle">
+        <a href="#" class="nav__link active">Home</a>
+        <a href="#" class="nav__link">Donate</a>
+        <a href="#" class="nav__link">Contact</a>
+        <a href="#" class="nav__link"><i class="bx bx-toggle-left change-theme" id="theme-button"></i></a>
+      </div>
+      <div class="right-nav">
+        <a href="#" class="nav__link">Login</a>
+        <a href="#" class="nav__link">Sign Up</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="bx bx-grid-alt"></i>
-        </div>
-      </nav>
-    </header>
-    <!-- END HEADER -->
+        </a>
+      </div>
+    </div>
+    <!-- END NAVBAR -->
 
     <!-- MAIN -->
     <main class="l-main">
@@ -69,21 +64,21 @@
             <h1 class="about__title">About</h1>
             <p class="about__description">MyDonatur memudahkan anda melakukan donasi secara online dalam bentuk apapun</p>
           </div>
-          <div class="about__card-container">
+          <div class="card-container">
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/fast.svg" alt="...." />
               <hr />
               <h3 class="card__title">Update</h3>
               <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/saving.svg" alt="...." />
               <hr />
               <h3 class="card__title">Tepat Sasaran</h3>
               <p class="card__description">Donasi yang terkumpul melalui MyDonatur akan disalurkan kepada yang membutuhkan</p>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/certivication.svg" alt="...." />
               <hr />
               <h3 class="card__title">Terpercaya</h3>
               <p class="card__description">MyDonatur sudah banyak melakukan donasi kepada sesama</p>
@@ -102,40 +97,52 @@
           </div>
           <div class="donate__card-container">
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/card.svg" alt="...." />
               <hr />
-              <h3 class="card__title">Uang</h3>
-              <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              <div class="card-data">
+                <h3 class="card__title">Uang</h3>
+                <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              </div>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/card.svg" alt="...." />
               <hr />
-              <h3 class="card__title">Zakat</h3>
-              <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              <div class="card-data">
+                <h3 class="card__title">Zakat</h3>
+                <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              </div>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/card.svg" alt="...." />
               <hr />
-              <h3 class="card__title">Pakaian</h3>
-              <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              <div class="card-data">
+                <h3 class="card__title">Pakaian</h3>
+                <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              </div>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/card.svg" alt="...." />
               <hr />
-              <h3 class="card__title">Obat-obatan</h3>
-              <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              <div class="card-data">
+                <h3 class="card__title">Obat-obatan</h3>
+                <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              </div>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/card.svg" alt="...." />
               <hr />
-              <h3 class="card__title">Pangan</h3>
-              <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              <div class="card-data">
+                <h3 class="card__title">Pangan</h3>
+                <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              </div>
             </div>
             <div class="card-item">
-              <img src="" alt="...." />
+              <img src="assets/img/card.svg" alt="...." />
               <hr />
-              <h3 class="card__title">Buku</h3>
-              <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              <div class="card-data">
+                <h3 class="card__title">Buku</h3>
+                <p class="card__description">MyDonatur akan memberikan update keadaan sekitar yang membutuhkan bantuan</p>
+              </div>
             </div>
           </div>
           <a href="#" class="button">Donate</a>
@@ -147,51 +154,52 @@
       <footer class="footer" id="footer">
         <div class="footer__container bd-container bd-grid">
           <div class="footer__data">
-            <img src="" alt="...." />
-            <p class="footer_description">MyDonatur adalah situs web yang dibuat khusus untuk menggalang dana bantuan secara online</p>
-          </div>
-          <div class="footer__location">
-            <h3 class="location__title">Our Location</h3>
-            <p class="location__description">
-              Jl. Mawar Merah No. 11, Probolinggo <br />
-              Phone: (021)21214567 <br />
-              WhatsApp: +62 098 1234 667 <br />
-              Email: mydonatur@gmail.com
+            <i class="bx bx-donate-heart"></i>
+            <p class="footer_description">
+              <b>MyDonatur</b> adalah situs web yang dibuat khusus <br />
+              untuk menggalang dana bantuan secara online
             </p>
           </div>
-          <div class="footer__social">
-            <div class="social__item">
-              <ul>
-                <li>
+          <div class="footer__information">
+            <div class="footer__location">
+              <h3 class="location__title">Our Location</h3>
+              <p class="location__description">
+                Jl. Mawar Merah No. 11, Probolinggo <br />
+                Phone: (021)21214567 <br />
+                WhatsApp: +62 098 1234 667 <br />
+                Email: mydonatur@gmail.com
+              </p>
+            </div>
+            <div class="footer__social">
+              <div class="social__item">
+                <div class="item-list">
                   <i class="bx bxl-instagram-alt"></i>
                   <a href="#" class="social-link">@MyDonatur</a>
-                </li>
-                <li>
+                </div>
+                <div class="item-list">
                   <i class="bx bxl-facebook-square"></i>
                   <a href="#" class="social-link">@MyDonatur</a>
-                </li>
-                <li>
+                </div>
+                <div class="item-list">
                   <i class="bx bxl-whatsapp-square"></i>
                   <a href="#" class="social-link">0813311678987</a>
-                </li>
-              </ul>
-            </div>
+                </div>
+              </div>
 
-            <div class="social__item">
-              <ul>
-                <li>
+              <div class="social__item">
+                <div class="item-list">
                   <i class="bx bxl-youtube"></i>
                   <a href="#" class="social-link">MyDonatur</a>
-                </li>
-                <li>
+                </div>
+                <div class="item-list">
                   <i class="bx bxl-twitter"></i>
                   <a href="#" class="social-link">@MyDonatur</a>
-                </li>
-                <li>
+                </div>
+                <div class="item-list">
                   <i class="bx bxs-envelope"></i>
                   <a href="#" class="social-link">MyDonatur@gmail.com</a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
