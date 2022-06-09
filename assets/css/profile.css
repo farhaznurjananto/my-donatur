@@ -9,7 +9,7 @@
 /* ASIDE */
 .aside-grid {
   padding: 2vh;
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   color: var(--text-color-light);
 }
 
@@ -59,10 +59,9 @@
 }
 
 /* IMAGE */
-.profile__image-container img {
-  background-color: var(--button-primary);
-  width: 100vh;
-  border-radius: 3px;
+.profile__image-container {
+  text-align: center;
+  font-size: 10vh;
 }
 
 /* TABLE */
@@ -101,6 +100,15 @@ form .button__profile button {
   color: var(--text-color-light);
 }
 
+form .button__profile .btn-danger {
+  background-color: var(--button-danger);
+}
+
+form .button__profile .btn-danger:hover {
+  background-color: var(--button-danger);
+  opacity: 0.9;
+}
+
 form .button__profile {
   display: flex;
   justify-content: space-between;
@@ -108,4 +116,78 @@ form .button__profile {
 
 form .button__profile .btn-primary:hover {
   background-color: var(--button-primary-alt);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .profile__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .aside-grid p {
+    display: none;
+  }
+
+  .aside-grid i {
+    padding-top: 3vh;
+  }
+
+  .aside-grid {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .content-grid {
+    margin-top: 12vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  table,
+  .togglePw {
+    text-align: center;
+  }
+
+  .content-grid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .content-grid .full {
+    width: 55vh;
+  }
+
+  .content-grid .col2 {
+    width: 20vh;
+  }
+
+  .content__title {
+    padding-left: 2vh;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  table,
+  .togglePw {
+    text-align: center;
+  }
+
+  .content-grid .full {
+    width: 50vh;
+  }
+
+  .content-grid .col2 {
+    width: 20vh;
+  }
+
+  form .button__profile button {
+    width: 20vh;
+  }
 }

@@ -9,7 +9,7 @@
 /* ASIDE */
 .aside-grid {
   padding: 2vh;
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   color: var(--text-color-light);
 }
 

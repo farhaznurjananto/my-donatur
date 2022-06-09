@@ -1,5 +1,5 @@
 /* CONTAINER */
-.register__container {
+.dtdtopendonate__container {
   display: grid;
   grid-template-columns: 35% auto;
   height: 100vh;
@@ -9,7 +9,7 @@
 /* ASIDE */
 .aside-grid {
   padding: 2vh;
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   color: var(--text-color-light);
 }
 
@@ -33,8 +33,7 @@
 
 /* CONTENT */
 .content-grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding: 10vh;
   background-color: var(--body-color);
 }
@@ -93,7 +92,7 @@ table .row-2 .left {
   color: var(--text-color-light);
 }
 
-form .button__register {
+form .button__dtdtopendonate {
   text-align: right;
 }
 
@@ -112,4 +111,62 @@ form .dropdown__goal {
   height: 12vh;
   border-radius: 1vh;
   border: 0.3vh solid var(--font-grey);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .dtopendonate__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .aside-grid p {
+    display: none;
+  }
+
+  .aside-grid i {
+    padding-top: 3vh;
+  }
+
+  .aside-grid {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .content-grid .col2 {
+    width: 26vh;
+  }
+
+  .content-grid {
+    margin-top: 5vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  table,
+  .togglePw {
+    text-align: center;
+  }
+
+  .content-grid .full {
+    width: 52.5vh;
+  }
+
+  form textarea {
+    width: 3vh;
+  }
+
+  .content-grid .col2 {
+    width: 23.5vh;
+  }
+
+  .content-grid button {
+    width: 20vh;
+  }
 }

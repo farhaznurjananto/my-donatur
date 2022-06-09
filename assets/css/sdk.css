@@ -9,7 +9,7 @@
 /* ASIDE */
 .aside-grid {
   padding: 2vh;
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   color: var(--text-color-light);
 }
 
@@ -53,4 +53,35 @@
 
 .sk li {
   margin-bottom: 1vh;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .sdk__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .aside-grid p {
+    display: none;
+  }
+
+  .aside-grid i {
+    padding-top: 3vh;
+  }
+
+  .aside-grid {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .content-grid {
+    margin-top: 5vh;
+    padding-right: 7vh;
+    padding-left: 7vh;
+  }
 }
