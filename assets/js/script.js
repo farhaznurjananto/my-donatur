@@ -85,3 +85,8 @@ function login() {
     alert("Username dan password anda salah!");
   }
 }
+
+// REGISTER
+function register() {
+  alert("Berhasil Register!");
+}

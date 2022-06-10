@@ -10,6 +10,10 @@
   z-index: 9999;
 }
 
+.topnav .change-theme {
+  font-size: 2.7vh;
+}
+
 .topnav a {
   float: left;
   display: block;
