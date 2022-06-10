@@ -55,7 +55,7 @@
 }
 
 .menu {
-  background-color: var(--first-color-alt-light);
+  background-color: var(--first-color-alt);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

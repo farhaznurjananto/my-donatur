@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   padding: 10vh;
-  background-color: var(--body-color);
+  background-color: var(--container-color);
 }
 
 .content-grid .content__head {
@@ -55,7 +55,7 @@
 }
 
 .menu {
-  background-color: var(--first-color-alt-light);
+  background-color: var(--first-color-alt);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
