@@ -7,6 +7,7 @@
   position: fixed;
   width: 100%;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  z-index: 9999;
 }
 
 .topnav a {
@@ -242,6 +243,11 @@ a.button:hover {
   padding: 1vh 0;
   text-align: center;
   color: var(--container-color);
+}
+
+/* MENU NAVBAR */
+.topnav .nav__link.hide {
+  display: none;
 }
 
 /* MEDIA AND SCREEN */
